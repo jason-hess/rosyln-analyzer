@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzer1", "Analyzer1\Analyzer1\Analyzer1.csproj", "{DADEFBAB-9220-4C78-BD1D-48B76CA04C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzer1.Test", "Analyzer1\Analyzer1.Test\Analyzer1.Test.csproj", "{FC233CEF-53F6-4B1C-8609-0D20279D4B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzer1.Vsix", "Analyzer1\Analyzer1.Vsix\Analyzer1.Vsix.csproj", "{86C831DC-5493-4BDA-A9E1-16D68D71601C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DADEFBAB-9220-4C78-BD1D-48B76CA04C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADEFBAB-9220-4C78-BD1D-48B76CA04C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADEFBAB-9220-4C78-BD1D-48B76CA04C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADEFBAB-9220-4C78-BD1D-48B76CA04C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC233CEF-53F6-4B1C-8609-0D20279D4B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC233CEF-53F6-4B1C-8609-0D20279D4B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC233CEF-53F6-4B1C-8609-0D20279D4B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC233CEF-53F6-4B1C-8609-0D20279D4B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C831DC-5493-4BDA-A9E1-16D68D71601C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C831DC-5493-4BDA-A9E1-16D68D71601C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C831DC-5493-4BDA-A9E1-16D68D71601C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C831DC-5493-4BDA-A9E1-16D68D71601C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
